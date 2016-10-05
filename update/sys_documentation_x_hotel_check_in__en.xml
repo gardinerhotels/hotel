@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Check-in" language="en" table="x_hotel_check_in">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Check-in</label>
+            <language>en</language>
+            <name>x_hotel_check_in</name>
+            <plural>Check-ins</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-05 22:50:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>94ba44694fd62200c17782818110c71b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Check-in</sys_name>
+            <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+            <sys_update_name>sys_documentation_x_hotel_check_in__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-05 22:50:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

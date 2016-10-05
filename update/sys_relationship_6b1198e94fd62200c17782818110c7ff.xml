@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_hotel_room</basic_apply_to>
+        <basic_query_from>x_hotel_room</basic_query_from>
+        <insert_callback/>
+        <name>Rooms on the same floor</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	current.addQuery('floor', parent.floor);
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-05 23:19:34</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6b1198e94fd62200c17782818110c7ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rooms on the same floor</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_relationship_6b1198e94fd62200c17782818110c7ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-05 23:19:34</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=6b1198e94fd62200c17782818110c7ff"/>
+</record_update>
