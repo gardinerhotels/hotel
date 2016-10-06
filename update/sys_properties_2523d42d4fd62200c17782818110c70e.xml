@@ -11,7 +11,7 @@
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-05 23:27:22</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2523d42d4fd62200c17782818110c70e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>glide.appcreator.company.friendly_name</sys_name>

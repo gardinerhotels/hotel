@@ -12,7 +12,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-05 23:39:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>adf5106d4fd62200c17782818110c724</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_hotel_guest_user</sys_name>

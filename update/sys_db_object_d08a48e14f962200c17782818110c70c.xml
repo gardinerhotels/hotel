@@ -21,7 +21,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-05 22:50:23</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d08a48e14f962200c17782818110c70c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Check-in</sys_name>

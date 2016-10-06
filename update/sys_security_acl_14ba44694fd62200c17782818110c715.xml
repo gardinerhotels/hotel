@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-05 22:50:24</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>14ba44694fd62200c17782818110c715</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_hotel_check_in</sys_name>
