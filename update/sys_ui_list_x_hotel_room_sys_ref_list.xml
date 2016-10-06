@@ -33,7 +33,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>953a98ad4fd62200c17782818110c714</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>x_hotel_room</sys_name>
             <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
             <sys_policy/>
@@ -41,7 +41,7 @@
             <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
             <sys_update_name>sys_ui_list_x_hotel_room_sys_ref_list</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-10-05 23:58:12</sys_updated_on>
+            <sys_updated_on>2016-10-06 23:52:23</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">6f2307114f122200c17782818110c77e</view>
             <view_name/>

@@ -43,7 +43,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>fb61d4e94fd62200c17782818110c708</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>Room - Default view</sys_name>
             <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
             <sys_policy/>
@@ -51,7 +51,7 @@
             <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
             <sys_update_name>sys_ui_related_x_hotel_room_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-10-05 23:19:53</sys_updated_on>
+            <sys_updated_on>2016-10-06 23:52:24</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>guest</field>
+        <global>true</global>
+        <messages/>
+        <name>Alert for VIP</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	var showVIP = function() {
+		g_form.showFieldMsg('guest', 'Guest is a VIP!');
+	};
+	
+	// Check the scratchpad. Regardless, leave if the form is being loaded
+	if (isLoading) {
+		if (g_scratchpad.vip == "true") {
+			showVIP();
+		}
+		return;
+	}
+	
+	// Always clear the flag if the field is changing
+	g_form.hideFieldMsg('guest');
+	
+	// Do nothing if the field is empty
+	if (newValue == '') {
+		return;
+	}
+	
+	// Check the database
+	var ga = new GlideAjax('QuickQuery');
+	ga.addParam('sysparm_name', 'getField');
+	ga.addParam('sysparm_table', 'x_hotel_guest');
+	ga.addParam('sysparm_sys_id', newValue);
+	ga.addParam('sysparm_field', 'vip');
+	ga.getXMLAnswer(function(answer) {
+		if (answer == 'true') {
+			showVIP();
+		}
+	});
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-06 23:18:53</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed9a95794f1e2200c17782818110c770</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Alert for VIP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_script_client_ed9a95794f1e2200c17782818110c770</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-06 23:37:11</sys_updated_on>
+        <table>x_hotel_check_in</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
