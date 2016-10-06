@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>073a58ad4fd62200c17782818110c743</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_hotel_reservation">
+    <x_hotel_reservation action="INSERT_OR_UPDATE">
+        <arrival>2016-10-09</arrival>
+        <departure>2016-10-11</departure>
+        <room display_value="103">8abccc694fd62200c17782818110c7e8</room>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-05 23:58:32</sys_created_on>
+        <sys_id>073a58ad4fd62200c17782818110c743</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-05 23:58:32</sys_updated_on>
+    </x_hotel_reservation>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-05 23:59:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>017a58ad4fd62200c17782818110c755</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2016-10-05 16:58:32</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_metadata_link_017a58ad4fd62200c17782818110c755</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-05 23:59:17</sys_updated_on>
+        <tablename>x_hotel_reservation</tablename>
+    </sys_metadata_link>
+</record_update>

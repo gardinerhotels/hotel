@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="date_format" table="x_hotel_guest" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>date_format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MM-dd-yyyy</label>
+            <language>en</language>
+            <name>x_hotel_guest</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-05 23:41:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3346d46d4fd62200c17782818110c7a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-05 23:41:10</sys_updated_on>
+            <value>MM-dd-yyyy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>date_format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>dd/MM/yyyy</label>
+            <language>en</language>
+            <name>x_hotel_guest</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-05 23:41:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3746d46d4fd62200c17782818110c7a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-05 23:41:10</sys_updated_on>
+            <value>dd/MM/yyyy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>date_format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>dd-MM-yyyy</label>
+            <language>en</language>
+            <name>x_hotel_guest</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-05 23:41:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b746d46d4fd62200c17782818110c7a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-05 23:41:10</sys_updated_on>
+            <value>dd-MM-yyyy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>date_format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>dd.MM.yyyy</label>
+            <language>en</language>
+            <name>x_hotel_guest</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-05 23:41:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b46d46d4fd62200c17782818110c7a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-05 23:41:10</sys_updated_on>
+            <value>dd.MM.yyyy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>date_format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>yyyy-MM-dd</label>
+            <language>en</language>
+            <name>x_hotel_guest</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-05 23:41:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb46d46d4fd62200c17782818110c7a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-05 23:41:10</sys_updated_on>
+            <value>yyyy-MM-dd</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>date_format</element>
+            <name>x_hotel_guest</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-05 23:41:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7346d46d4fd62200c17782818110c7a3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>date_format</sys_name>
+            <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+            <sys_update_name>sys_choice_x_hotel_guest_date_format</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-05 23:41:10</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

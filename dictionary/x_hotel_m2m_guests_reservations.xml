@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Guests Reservations" max_length="40" name="x_hotel_m2m_guests_reservations" type="collection">
+        <element label="Guest" max_length="32" name="guest" reference="x_hotel_guest" type="reference"/>
+        <element label="Lead" max_length="40" name="lead" type="boolean"/>
+        <element label="Reservation" max_length="32" name="reservation" reference="x_hotel_reservation" type="reference"/>
+        <index name="index">
+            <element name="reservation"/>
+        </index>
+        <index name="index2">
+            <element name="guest"/>
+        </index>
+    </element>
+</database>
