@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_gauge_counts">
+    <sys_gauge_counts action="INSERT_OR_UPDATE">
+        <gauge_id display_value="Maintenance counts">359a35354f5e2200c17782818110c773</gauge_id>
+        <image/>
+        <name>Highprioirty tasks</name>
+        <omit_line>true</omit_line>
+        <order>20</order>
+        <override_style/>
+        <query table="x_hotel_maintenance">active=true^priority&gt;2^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="priority" goto="false" newquery="false" operator="&gt;" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query>
+        <script/>
+        <short_description>Of those, how many are higher priority</short_description>
+        <sys_class_name>sys_gauge_counts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 01:40:49</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3cea35354f5e2200c17782818110c7f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Highprioirty tasks</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_gauge_counts_3cea35354f5e2200c17782818110c7f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 01:40:49</sys_updated_on>
+        <tablename>x_hotel_maintenance</tablename>
+        <use_script>false</use_script>
+    </sys_gauge_counts>
+</record_update>

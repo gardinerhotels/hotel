@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report">
+    <sys_report action="INSERT_OR_UPDATE">
+        <additional_groupby/>
+        <aggregate>COUNT</aggregate>
+        <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
+        <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
+        <bar_unstack>false</bar_unstack>
+        <chart_background_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</chart_background_color>
+        <chart_border_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</chart_border_color>
+        <chart_border_radius>0</chart_border_radius>
+        <chart_border_width>1</chart_border_width>
+        <chart_height/>
+        <chart_size>large</chart_size>
+        <chart_title/>
+        <chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color>
+        <chart_title_size>16</chart_title_size>
+        <chart_title_x_position>0</chart_title_x_position>
+        <chart_title_y_position>0</chart_title_y_position>
+        <chart_width/>
+        <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
+        <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
+        <colors/>
+        <column>active</column>
+        <compute_percent>aggregate</compute_percent>
+        <content/>
+        <custom_chart_size>false</custom_chart_size>
+        <custom_chart_title_position>false</custom_chart_title_position>
+        <decimal_precision>0</decimal_precision>
+        <description/>
+        <direction>minimize</direction>
+        <display_grid>false</display_grid>
+        <donut_width_percent>50</donut_width_percent>
+        <exp_report_attrs>true</exp_report_attrs>
+        <field/>
+        <field_list/>
+        <filter table="x_hotel_maintenance">^TRENDBYopened_at,date<item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="opened_at,date"/>
+        </filter>
+        <from/>
+        <funnel_neck_percent>30</funnel_neck_percent>
+        <gauge_autoscale>true</gauge_autoscale>
+        <group/>
+        <interval>date</interval>
+        <is_published>false</is_published>
+        <is_scheduled>false</is_scheduled>
+        <legend_background_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</legend_background_color>
+        <legend_border_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</legend_border_color>
+        <legend_border_radius>0</legend_border_radius>
+        <legend_border_width>1</legend_border_width>
+        <legend_horizontal_alignment>center</legend_horizontal_alignment>
+        <legend_items_left_align>false</legend_items_left_align>
+        <legend_vertical_alignment>bottom</legend_vertical_alignment>
+        <list_ui_view/>
+        <location_field/>
+        <lower_limit/>
+        <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
+        <map_source/>
+        <orderby_list/>
+        <other_threshold>-2</other_threshold>
+        <others>false</others>
+        <page_hdrftr display_value="Default">0ecdb03fc3613000cef73b251eba8f5e</page_hdrftr>
+        <report_drilldown/>
+        <report_source/>
+        <roles/>
+        <row>active</row>
+        <sc_groupby_item_id/>
+        <sc_groupby_variable_id/>
+        <sc_stackby_item_id/>
+        <sc_stackby_variable_id/>
+        <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
+        <set_color>one_color</set_color>
+        <show_chart_border>false</show_chart_border>
+        <show_chart_data_label>false</show_chart_data_label>
+        <show_chart_title>report</show_chart_title>
+        <show_chart_total>false</show_chart_total>
+        <show_empty>false</show_empty>
+        <show_geographical_label>false</show_geographical_label>
+        <show_legend>true</show_legend>
+        <show_legend_border>false</show_legend_border>
+        <show_marker>true</show_marker>
+        <show_zero>false</show_zero>
+        <sumfield>business_duration</sumfield>
+        <sys_class_name>sys_report</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 01:35:00</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4df9f9f14f5e2200c17782818110c7b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tasks opened per day</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_report_4df9f9f14f5e2200c17782818110c7b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 01:35:00</sys_updated_on>
+        <table>x_hotel_maintenance</table>
+        <title>Tasks opened per day</title>
+        <title_horizontal_alignment>center</title_horizontal_alignment>
+        <title_vertical_alignment>top</title_vertical_alignment>
+        <to/>
+        <trend_field>opened_at</trend_field>
+        <type>line</type>
+        <upper_limit/>
+        <use_color_heatmap>true</use_color_heatmap>
+        <use_color_palette>true</use_color_palette>
+        <user>6816f79cc0a8016401c5a33be04be441</user>
+        <x_axis_display_grid>false</x_axis_display_grid>
+        <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
+        <x_axis_grid_dotted>false</x_axis_grid_dotted>
+        <x_axis_grid_width>1</x_axis_grid_width>
+        <x_axis_label_bold>false</x_axis_label_bold>
+        <x_axis_label_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_label_color>
+        <x_axis_label_size>11</x_axis_label_size>
+        <x_axis_opposite>false</x_axis_opposite>
+        <x_axis_title/>
+        <x_axis_title_bold>true</x_axis_title_bold>
+        <x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color>
+        <x_axis_title_size>12</x_axis_title_size>
+        <y_axis_display_grid>true</y_axis_display_grid>
+        <y_axis_from/>
+        <y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color>
+        <y_axis_grid_dotted>false</y_axis_grid_dotted>
+        <y_axis_grid_width>1</y_axis_grid_width>
+        <y_axis_label_bold>false</y_axis_label_bold>
+        <y_axis_label_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_label_color>
+        <y_axis_label_size>11</y_axis_label_size>
+        <y_axis_opposite>false</y_axis_opposite>
+        <y_axis_title/>
+        <y_axis_title_bold>true</y_axis_title_bold>
+        <y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
+        <y_axis_title_size>12</y_axis_title_size>
+        <y_axis_to/>
+    </sys_report>
+</record_update>
