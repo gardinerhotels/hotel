@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3e34653d4f1e2200c17782818110c7dd</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number_counter">
+    <sys_number_counter action="INSERT_OR_UPDATE">
+        <number>1009</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:00:06</sys_created_on>
+        <sys_id>3e34653d4f1e2200c17782818110c7dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:00:06</sys_updated_on>
+        <table display_value="" name="x_hotel_maintenance">x_hotel_maintenance</table>
+    </sys_number_counter>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:55:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>63f071714f5e2200c17782818110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1,009</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_metadata_link_63f071714f5e2200c17782818110c7f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:55:51</sys_updated_on>
+        <tablename>sys_number_counter</tablename>
+    </sys_metadata_link>
+</record_update>

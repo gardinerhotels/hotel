@@ -97,7 +97,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>6436902d4fd62200c17782818110c796</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_name>x_hotel_guest</sys_name>
             <sys_overrides/>
             <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
@@ -106,7 +106,7 @@
             <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
             <sys_update_name>sys_ui_section_6436902d4fd62200c17782818110c796</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-10-06 23:52:22</sys_updated_on>
+            <sys_updated_on>2016-10-07 00:55:51</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

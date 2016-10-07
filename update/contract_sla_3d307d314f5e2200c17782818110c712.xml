@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="contract_sla">
+    <contract_sla action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cancel_condition/>
+        <collection>x_hotel_maintenance</collection>
+        <condition_class/>
+        <duration>1970-01-01 00:10:00</duration>
+        <duration_type/>
+        <enable_logging>false</enable_logging>
+        <name>Other priorities</name>
+        <pause_condition/>
+        <relative_duration_works_on>Task record</relative_duration_works_on>
+        <reset_condition/>
+        <resume_condition/>
+        <retroactive>true</retroactive>
+        <retroactive_pause>true</retroactive_pause>
+        <schedule display_value="8-5 weekdays">08fcd0830a0a0b2600079f56b1adb9ae</schedule>
+        <schedule_source>no_schedule</schedule_source>
+        <schedule_source_field/>
+        <set_start_to>sys_created_on</set_start_to>
+        <start_condition table="x_hotel_maintenance">active=true^priority!=1^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="priority" goto="false" newquery="false" operator="!=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </start_condition>
+        <stop_condition table="x_hotel_maintenance">active=false^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </stop_condition>
+        <sys_class_name>contract_sla</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:52:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d307d314f5e2200c17782818110c712</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Other priorities</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>contract_sla_3d307d314f5e2200c17782818110c712</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:52:27</sys_updated_on>
+        <timezone/>
+        <timezone_source>task.caller_id.time_zone</timezone_source>
+        <type>SLA</type>
+        <when_to_cancel>no_match</when_to_cancel>
+        <when_to_resume>on_condition</when_to_resume>
+        <workflow display_value="Notify and reassign">832ea1314f5e2200c17782818110c7ed</workflow>
+    </contract_sla>
+</record_update>

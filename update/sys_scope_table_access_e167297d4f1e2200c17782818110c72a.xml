@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_table_access">
+    <sys_scope_table_access action="INSERT_OR_UPDATE">
+        <create_access>false</create_access>
+        <delete_access>false</delete_access>
+        <example_stack_trace>Default-thread-7
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.getCurrentStackTrace(ScopeAccessProvider.java:234)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.record(ScopeAccessProvider.java:202)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.access$100(ScopeAccessProvider.java:81)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider.recordAccess(ScopeAccessProvider.java:64)
+	com.glide.sys.fencing.dependency.ScopeAccessRecorder.record(ScopeAccessRecorder.java:13)
+	com.glide.script.fencing.access.ScopedTableAccess.hasRightsTo(ScopedTableAccess.java:93)
+	com.glide.script.fencing.access.ScopedTableAccess.hasRightsToTable(ScopedTableAccess.java:40)
+	com.glide.script.fencing.ScopedGlideRecord.getScopeAccessStatusForTable(ScopedGlideRecord.java:229)
+	com.glide.script.fencing.ScopedGlideRecord.checkOperationPermitted(ScopedGlideRecord.java:211)
+	com.glide.script.fencing.ScopedGlideRecord.jsFunction_get(ScopedGlideRecord.java:176)
+	sun.reflect.GeneratedMethodAccessor387.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.mozilla.javascript.MemberBox.invoke(MemberBox.java:138)
+	org.mozilla.javascript.FunctionObject.doInvoke(FunctionObject.java:637)
+	org.mozilla.javascript.FunctionObject.call(FunctionObject.java:581)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2574)
+	org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	org.mozilla.javascript.gen.sys_script_include_7ae6257d4f1e2200c17782818110c70d_2755._c_maintenanceGroups_1(sys_script_include.7ae6257d4f1e2200c17782818110c70d:3)
+	org.mozilla.javascript.gen.sys_script_include_7ae6257d4f1e2200c17782818110c70d_2755.call(sys_script_include.7ae6257d4f1e2200c17782818110c70d)
+	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
+	org.mozilla.javascript.optimizer.OptRuntime.callProp0(OptRuntime.java:85)
+	org.mozilla.javascript.gen.sys_dictionary_74d34b514f122200c17782818110c788_2754._c_script_0(sys_dictionary.74d34b514f122200c17782818110c788:1)
+	org.mozilla.javascript.gen.sys_dictionary_74d34b514f122200c17782818110c788_2754.call(sys_dictionary.74d34b514f122200c17782818110c788)
+	org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:560)
+	org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3439)
+	org.mozilla.javascript.gen.sys_dictionary_74d34b514f122200c17782818110c788_2754.call(sys_dictionary.74d34b514f122200c17782818110c788)
+	org.mozilla.javascript.gen.sys_dictionary_74d34b514f122200c17782818110c788_2754.exec(sys_dictionary.74d34b514f122200c17782818110c788)
+	com.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:236)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:107)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:73)
+	com.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:322)
+	com.glide.db.ReferenceQualifierEvaluator.evaluate(ReferenceQualifierEvaluator.java:93)
+	com.glide.db.ElementDescriptor.getReferenceQualifier(ElementDescriptor.java:2260)
+	com.glide.db.ElementDescriptor.getReferenceQualifier(ElementDescriptor.java:2243)
+	com.glide.db.ReferenceQualifier.getCondition(ReferenceQualifier.java:78)
+	com.glide.db.ReferenceQualifier.add(ReferenceQualifier.java:58)
+	com.glide.list_v2.ListRecordSysRefListTag.getReferenceQualifier(ListRecordSysRefListTag.java:220)
+	com.glide.list_v2.ListRecordSysRefListTag.initAdditionalQuery(ListRecordSysRefListTag.java:122)
+	com.glide.list_v2.ListRecordDefaultTag.doTag(ListRecordDefaultTag.java:78)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:146)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	com.glide.ui.jelly.tags.BaseTag.invokeBody(BaseTag.java:267)
+	com.glide.ui.jelly.tags.FileinfoTag2.doTag(FileinfoTag2.java:43)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	com.glide.ui.jelly.tags.BaseTag.invokeBody(BaseTag.java:267)
+	com.glide.ui.jelly.tags.FileinfoTag2.doTag(FileinfoTag2.java:43)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:146)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	org.apache.commons.jelly.impl.StaticTag.doTag(StaticTag.java:111)
+	org.apache.commons.jelly.impl.StaticTagScript.run(StaticTagScript.java:94)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	com.glide.ui.jelly.tags.BaseTag.invokeBody(BaseTag.java:267)
+	com.glide.ui.jelly.tags.FileinfoTag2.doTag(FileinfoTag2.java:43)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:146)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	org.apache.commons.jelly.impl.StaticTag.doTag(StaticTag.java:111)
+	org.apache.commons.jelly.impl.StaticTagScript.run(StaticTagScript.java:94)
+	org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:146)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	org.apache.commons.jelly.impl.StaticTag.doTag(StaticTag.java:111)
+	org.apache.commons.jelly.impl.StaticTagScript.run(StaticTagScript.java:94)
+	org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:146)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	com.glide.ui.jelly.tags.BaseTag.invokeBody(BaseTag.java:267)
+	com.glide.ui.jelly.tags.FileinfoTag2.doTag(FileinfoTag2.java:43)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	org.apache.commons.jelly.tags.core.JellyTag.doTag(JellyTag.java:84)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	com.glide.ui.jelly.GlideJellyContext.run(GlideJellyContext.java:658)
+	com.glide.ui.jelly.GlideJellyContext.executeCompiledScript(GlideJellyContext.java:865)
+	com.glide.ui.jelly.GlideJellyContext.runScript(GlideJellyContext.java:722)
+	com.glide.ui.jelly.GlideJellyContext.runScript(GlideJellyContext.java:680)
+	com.glide.ui.GlideFormPhase2.generate(GlideFormPhase2.java:49)
+	com.glide.ui.GlideForm.generatePopulatedForm(GlideForm.java:697)
+	com.glide.ui.GlideForm.generatePopulatedForm(GlideForm.java:683)
+	com.glide.ui.GlideForm.populateForm(GlideForm.java:677)
+	com.glide.ui.GlideForm.getRenderedPage(GlideForm.java:221)
+	com.glide.ui.NavigationTransaction.writeOutput(NavigationTransaction.java:157)
+	com.glide.ui.NavigationTransaction.process(NavigationTransaction.java:128)
+	com.glide.ui.GlideServletUITransaction.process(GlideServletUITransaction.java:89)
+	com.glide.processors.AProcessor.runProcessor(AProcessor.java:412)
+	com.glide.processors.AProcessor.processTransaction(AProcessor.java:187)
+	com.glide.processors.ProcessorRegistry.process(ProcessorRegistry.java:165)
+	com.glide.ui.GlideServletTransaction.process(GlideServletTransaction.java:49)
+	com.glide.sys.ServletTransaction.run(ServletTransaction.java:34)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	java.lang.Thread.run(Thread.java:745)
+</example_stack_trace>
+        <read_access>true</read_access>
+        <source_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</source_scope>
+        <sys_class_name>sys_scope_table_access</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:13:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e167297d4f1e2200c17782818110c72a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user_group_type</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_scope_table_access_e167297d4f1e2200c17782818110c72a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:13:56</sys_updated_on>
+        <table_name>sys_user_group_type</table_name>
+        <target_scope display_value="Global">global</target_scope>
+        <write_access>false</write_access>
+    </sys_scope_table_access>
+</record_update>

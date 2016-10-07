@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["4b2ea1314f5e2200c17782818110c7ed"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>472ea1314f5e2200c17782818110c7ed,133e25314f5e2200c17782818110c74f,3f5ea5fd4f1e2200c17782818110c7c3,eb7e69fd4f1e2200c17782818110c779,089ee9fd4f1e2200c17782818110c7db,04be25314f5e2200c17782818110c726,4b2ea1314f5e2200c17782818110c7ed</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>472ea1314f5e2200c17782818110c7ed,133e25314f5e2200c17782818110c74f,3f5ea5fd4f1e2200c17782818110c7c3,eb7e69fd4f1e2200c17782818110c779,089ee9fd4f1e2200c17782818110c7db,04be25314f5e2200c17782818110c726,4b2ea1314f5e2200c17782818110c7ed</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Notify and reassign</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">472ea1314f5e2200c17782818110c7ed</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:43:32</sys_created_on>
+        <sys_id>281ee1314f5e2200c17782818110c76b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:53:28</sys_updated_on>
+        <table>task_sla</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Notify and reassign">832ea1314f5e2200c17782818110c7ed</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Notify and reassign</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:43:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>832ea1314f5e2200c17782818110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notify and reassign</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>wf_workflow_832ea1314f5e2200c17782818110c7ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:43:32</sys_updated_on>
+        <table>task_sla</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:43:32</sys_created_on>
+        <sys_id>472ea1314f5e2200c17782818110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:43:32</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Notify and reassign">281ee1314f5e2200c17782818110c76b</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">472ea1314f5e2200c17782818110c7ed</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:43:32</sys_created_on>
+        <sys_id>c72ea1314f5e2200c17782818110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:43:32</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:43:32</sys_created_on>
+        <sys_id>4b2ea1314f5e2200c17782818110c7ed</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:47:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Notify and reassign">281ee1314f5e2200c17782818110c76b</workflow_version>
+        <x>472</x>
+        <y>326</y>
+    </wf_activity>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Event">9f680b92c0a801640026553f665b429f</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Give assignee a warning</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:49</sys_created_on>
+        <sys_id>3f5ea5fd4f1e2200c17782818110c7c3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:46:32</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Notify and reassign">281ee1314f5e2200c17782818110c76b</workflow_version>
+        <x>441</x>
+        <y>53</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>3f5ea5fd4f1e2200c17782818110c7c3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:49</sys_created_on>
+        <sys_id>fd7eadfd4f1e2200c17782818110c756</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:49</sys_updated_on>
+        <value>4b7ac3530a0a0b300099153f83980d2f</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>3f5ea5fd4f1e2200c17782818110c7c3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:49</sys_created_on>
+        <sys_id>b17eadfd4f1e2200c17782818110c757</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:49</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>3f5ea5fd4f1e2200c17782818110c7c3</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:49</sys_created_on>
+        <sys_id>757eadfd4f1e2200c17782818110c757</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:49</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Give assignee a warning">3f5ea5fd4f1e2200c17782818110c7c3</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:49</sys_created_on>
+        <sys_id>397eadfd4f1e2200c17782818110c757</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:49</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Event">9f680b92c0a801640026553f665b429f</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notify manager of breach</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:35</sys_created_on>
+        <sys_id>089ee9fd4f1e2200c17782818110c7db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:46:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Notify and reassign">281ee1314f5e2200c17782818110c76b</workflow_version>
+        <x>440</x>
+        <y>182</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>089ee9fd4f1e2200c17782818110c7db</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:35</sys_created_on>
+        <sys_id>11ae25314f5e2200c17782818110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:35</sys_updated_on>
+        <value>4b83f3410a0a0b3000a899b441916c7b</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>089ee9fd4f1e2200c17782818110c7db</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:35</sys_created_on>
+        <sys_id>d1ae25314f5e2200c17782818110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:35</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>089ee9fd4f1e2200c17782818110c7db</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:35</sys_created_on>
+        <sys_id>95ae25314f5e2200c17782818110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:35</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notify manager of breach">089ee9fd4f1e2200c17782818110c7db</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:35</sys_created_on>
+        <sys_id>59ae25314f5e2200c17782818110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:35</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Reassign to default team</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:46:06</sys_created_on>
+        <sys_id>04be25314f5e2200c17782818110c726</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:47:01</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Notify and reassign">281ee1314f5e2200c17782818110c76b</workflow_version>
+        <x>207</x>
+        <y>324</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04be25314f5e2200c17782818110c726</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:46:06</sys_created_on>
+        <sys_id>64ce61314f5e2200c17782818110c7eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:46:06</sys_updated_on>
+        <value>var tsk = current.task.getRefRecord();&#13;
+tsk.assignment_group = '';&#13;
+tsk.update();</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Reassign to default team">04be25314f5e2200c17782818110c726</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:46:06</sys_created_on>
+        <sys_id>28ce61314f5e2200c17782818110c7eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:46:06</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="SLA Percentage Timer">8e291a23ac1464262f4366bb3182d840</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for 25%</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:10</sys_created_on>
+        <sys_id>eb7e69fd4f1e2200c17782818110c779</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:46:39</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Notify and reassign">281ee1314f5e2200c17782818110c76b</workflow_version>
+        <x>200</x>
+        <y>188</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>eb7e69fd4f1e2200c17782818110c779</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:10</sys_created_on>
+        <sys_id>328e25314f5e2200c17782818110c725</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:10</sys_updated_on>
+        <value/>
+        <variable display_value="">d6d1f7ef0a0a0b9b0189a9e672795167</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>eb7e69fd4f1e2200c17782818110c779</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:10</sys_created_on>
+        <sys_id>3a8e25314f5e2200c17782818110c723</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:10</sys_updated_on>
+        <value/>
+        <variable display_value="">d7242d200a0a0b5f008f535603a17bc8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>eb7e69fd4f1e2200c17782818110c779</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:10</sys_created_on>
+        <sys_id>728e25314f5e2200c17782818110c724</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:10</sys_updated_on>
+        <value/>
+        <variable display_value="">d7277ef40a0a0b5f00355fe11ecee145</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>eb7e69fd4f1e2200c17782818110c779</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:10</sys_created_on>
+        <sys_id>7e8e25314f5e2200c17782818110c724</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:10</sys_updated_on>
+        <value/>
+        <variable display_value="">d6d378c20a0a0b9b01bbd16b1f3b7105</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>eb7e69fd4f1e2200c17782818110c779</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:10</sys_created_on>
+        <sys_id>ba8e25314f5e2200c17782818110c724</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:10</sys_updated_on>
+        <value/>
+        <variable display_value="">d67e76010a0a0b9b01146faa9f93fd86</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>eb7e69fd4f1e2200c17782818110c779</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:10</sys_created_on>
+        <sys_id>be8e25314f5e2200c17782818110c723</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:10</sys_updated_on>
+        <value/>
+        <variable display_value="">d67ff5da0a0a0b9b00b230016b2f5203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>eb7e69fd4f1e2200c17782818110c779</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:10</sys_created_on>
+        <sys_id>f68e25314f5e2200c17782818110c724</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:10</sys_updated_on>
+        <value/>
+        <variable display_value="">d6d1791a0a0a0b9b01eda7c8dbc013da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>eb7e69fd4f1e2200c17782818110c779</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:10</sys_created_on>
+        <sys_id>fa8e25314f5e2200c17782818110c723</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:10</sys_updated_on>
+        <value/>
+        <variable display_value="">d6cec3ed0a0a0b9b00c9bbdb5fdda4e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>eb7e69fd4f1e2200c17782818110c779</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:10</sys_created_on>
+        <sys_id>368e25314f5e2200c17782818110c724</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:10</sys_updated_on>
+        <value>25</value>
+        <variable display_value="">c36369760a0a0ba973b49249d16250b3</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for 25%">eb7e69fd4f1e2200c17782818110c779</activity>
+        <condition>activity.result != 'repair'</condition>
+        <condition_default display_value="Normal">296cb730373331003e7d40ed9dbe5d27</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Normal</name>
+        <order>200</order>
+        <short_description>The SLA is running normally (not being repaired)</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:10</sys_created_on>
+        <sys_id>f28e25314f5e2200c17782818110c725</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:10</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for 25%">eb7e69fd4f1e2200c17782818110c779</activity>
+        <condition>activity.result == 'repair'</condition>
+        <condition_default display_value="Repair">817cb730373331003e7d40ed9dbe5d14</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Repair</name>
+        <order>100</order>
+        <short_description>The SLA is being repaired</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:45:10</sys_created_on>
+        <sys_id>768e25314f5e2200c17782818110c725</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:45:10</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="SLA Percentage Timer">8e291a23ac1464262f4366bb3182d840</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for 75%</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:12</sys_created_on>
+        <sys_id>133e25314f5e2200c17782818110c74f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:46:21</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Notify and reassign">281ee1314f5e2200c17782818110c76b</workflow_version>
+        <x>198</x>
+        <y>52</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>133e25314f5e2200c17782818110c74f</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:12</sys_created_on>
+        <sys_id>345ee1314f5e2200c17782818110c745</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:12</sys_updated_on>
+        <value/>
+        <variable display_value="">d6d378c20a0a0b9b01bbd16b1f3b7105</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>133e25314f5e2200c17782818110c74f</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:12</sys_created_on>
+        <sys_id>385ee1314f5e2200c17782818110c744</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:12</sys_updated_on>
+        <value/>
+        <variable display_value="">d7277ef40a0a0b5f00355fe11ecee145</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>133e25314f5e2200c17782818110c74f</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:12</sys_created_on>
+        <sys_id>705ee1314f5e2200c17782818110c745</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:12</sys_updated_on>
+        <value/>
+        <variable display_value="">d67e76010a0a0b9b01146faa9f93fd86</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>133e25314f5e2200c17782818110c74f</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:12</sys_created_on>
+        <sys_id>745ee1314f5e2200c17782818110c744</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:12</sys_updated_on>
+        <value/>
+        <variable display_value="">d67ff5da0a0a0b9b00b230016b2f5203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>133e25314f5e2200c17782818110c74f</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:12</sys_created_on>
+        <sys_id>b05ee1314f5e2200c17782818110c744</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:12</sys_updated_on>
+        <value/>
+        <variable display_value="">d6cec3ed0a0a0b9b00c9bbdb5fdda4e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>133e25314f5e2200c17782818110c74f</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:12</sys_created_on>
+        <sys_id>bc5ee1314f5e2200c17782818110c744</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:12</sys_updated_on>
+        <value/>
+        <variable display_value="">d6d1791a0a0a0b9b01eda7c8dbc013da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>133e25314f5e2200c17782818110c74f</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:12</sys_created_on>
+        <sys_id>f45ee1314f5e2200c17782818110c745</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:12</sys_updated_on>
+        <value/>
+        <variable display_value="">d6d1f7ef0a0a0b9b0189a9e672795167</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>133e25314f5e2200c17782818110c74f</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:12</sys_created_on>
+        <sys_id>fc5ee1314f5e2200c17782818110c743</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:12</sys_updated_on>
+        <value/>
+        <variable display_value="">d7242d200a0a0b5f008f535603a17bc8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>133e25314f5e2200c17782818110c74f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:12</sys_created_on>
+        <sys_id>f85ee1314f5e2200c17782818110c744</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:12</sys_updated_on>
+        <value>75</value>
+        <variable display_value="">c36369760a0a0ba973b49249d16250b3</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for 75%">133e25314f5e2200c17782818110c74f</activity>
+        <condition>activity.result != 'repair'</condition>
+        <condition_default display_value="Normal">296cb730373331003e7d40ed9dbe5d27</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Normal</name>
+        <order>200</order>
+        <short_description>The SLA is running normally (not being repaired)</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:12</sys_created_on>
+        <sys_id>b85ee1314f5e2200c17782818110c745</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:12</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for 75%">133e25314f5e2200c17782818110c74f</activity>
+        <condition>activity.result == 'repair'</condition>
+        <condition_default display_value="Repair">817cb730373331003e7d40ed9dbe5d14</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Repair</name>
+        <order>100</order>
+        <short_description>The SLA is being repaired</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:44:12</sys_created_on>
+        <sys_id>3c5ee1314f5e2200c17782818110c745</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:44:12</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">c72ea1314f5e2200c17782818110c7ed</condition>
+        <from display_value="Begin">472ea1314f5e2200c17782818110c7ed</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:46:24</sys_created_on>
+        <sys_id>74dea1314f5e2200c17782818110c701</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:46:24</sys_updated_on>
+        <to display_value="Wait for 75%">133e25314f5e2200c17782818110c74f</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">28ce61314f5e2200c17782818110c7eb</condition>
+        <from display_value="Reassign to default team">04be25314f5e2200c17782818110c726</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:46:53</sys_created_on>
+        <sys_id>77eee1314f5e2200c17782818110c74a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:46:53</sys_updated_on>
+        <to display_value="End">4b2ea1314f5e2200c17782818110c7ed</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">59ae25314f5e2200c17782818110c7fc</condition>
+        <from display_value="Notify manager of breach">089ee9fd4f1e2200c17782818110c7db</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:46:50</sys_created_on>
+        <sys_id>8fee25314f5e2200c17782818110c72a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:46:50</sys_updated_on>
+        <to display_value="Reassign to default team">04be25314f5e2200c17782818110c726</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Normal">f28e25314f5e2200c17782818110c725</condition>
+        <from display_value="Wait for 25%">eb7e69fd4f1e2200c17782818110c779</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:46:48</sys_created_on>
+        <sys_id>b6eee1314f5e2200c17782818110c733</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:46:48</sys_updated_on>
+        <to display_value="Notify manager of breach">089ee9fd4f1e2200c17782818110c7db</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">397eadfd4f1e2200c17782818110c757</condition>
+        <from display_value="Give assignee a warning">3f5ea5fd4f1e2200c17782818110c7c3</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:46:36</sys_created_on>
+        <sys_id>bfdee1314f5e2200c17782818110c749</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:46:36</sys_updated_on>
+        <to display_value="Wait for 25%">eb7e69fd4f1e2200c17782818110c779</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Normal">b85ee1314f5e2200c17782818110c745</condition>
+        <from display_value="Wait for 75%">133e25314f5e2200c17782818110c74f</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:46:29</sys_created_on>
+        <sys_id>cedeadfd4f1e2200c17782818110c758</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:46:29</sys_updated_on>
+        <to display_value="Give assignee a warning">3f5ea5fd4f1e2200c17782818110c7c3</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-07 00:43:32</sys_created_on>
+        <sys_id>cf2ea1314f5e2200c17782818110c7ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-07 00:43:32</sys_updated_on>
+        <workflow_version display_value="Notify and reassign">281ee1314f5e2200c17782818110c76b</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=832ea1314f5e2200c17782818110c7ed^sys_id!=281ee1314f5e2200c17782818110c76b">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>
