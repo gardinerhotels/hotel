@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="IMP XML Rooms" max_length="40" name="u_imp_xml_rooms" type="collection">
+        <element attributes="import_attribute_name=location,edge_encryption_enabled=true" label="location" max_length="64000" name="u_location" type="string"/>
+        <element attributes="import_attribute_name=location/corridor,edge_encryption_enabled=true" label="location/corridor" max_length="40" name="u_location_corridor" type="string"/>
+        <element attributes="import_attribute_name=location/floor,edge_encryption_enabled=true" label="location/floor" max_length="40" name="u_location_floor" type="string"/>
+        <element attributes="import_attribute_name=number,edge_encryption_enabled=true" label="number" max_length="40" name="u_number" type="string"/>
+    </element>
+</database>

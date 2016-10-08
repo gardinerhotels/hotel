@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="ldap_server_config">
+    <ldap_server_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <authenticate>true</authenticate>
+        <connect_timeout>10</connect_timeout>
+        <dn>cn=readonly,cn=staff,dc=gardiner-hotels,dc=com</dn>
+        <dn_field/>
+        <listen_interval>5</listen_interval>
+        <listener>false</listener>
+        <map/>
+        <mid_server/>
+        <name>Gardiner Hotels</name>
+        <paging>true</paging>
+        <password>MEyi3jQvb+N7MaSa+EyjGA==</password>
+        <rdn>dc=gardiner-hotels,dc=com</rdn>
+        <read_timeout>30</read_timeout>
+        <server_url>ldap://ldap.gardiner-hotels.com/</server_url>
+        <ssl>false</ssl>
+        <sys_class_name>ldap_server_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 17:39:20</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>784062de4fd26200c17782818110c716</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Gardiner Hotels</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>ldap_server_config_784062de4fd26200c17782818110c716</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 17:42:28</sys_updated_on>
+        <system_id>app128196.hkg1.service-now.com:dev15307001</system_id>
+        <vendor>other</vendor>
+    </ldap_server_config>
+</record_update>

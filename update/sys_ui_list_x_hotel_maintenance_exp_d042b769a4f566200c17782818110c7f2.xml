@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_hotel_maintenance" version="2" view="exp_d042b769a4f566200c17782818110c7f2">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_hotel_maintenance" element="NULL" name="x_hotel_maintenance" parent="NULL" relationship="NULL" sys_domain="global" view="082b769a4f566200c17782818110c7f2">d10c7a5a4f566200c17782818110c764</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-08 19:40:37</sys_created_on>
+            <sys_id>d50cfa9a4f566200c17782818110c745</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-08 19:40:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_hotel_maintenance" element="NULL" name="x_hotel_maintenance" parent="NULL" relationship="NULL" sys_domain="global" view="082b769a4f566200c17782818110c7f2">d10c7a5a4f566200c17782818110c764</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-08 19:40:37</sys_created_on>
+            <sys_id>590cfa9a4f566200c17782818110c745</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-08 19:40:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_hotel_maintenance</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-08 19:40:37</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d10c7a5a4f566200c17782818110c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hotel_maintenance</sys_name>
+            <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+            <sys_update_name>sys_ui_list_x_hotel_maintenance_exp_d042b769a4f566200c17782818110c7f2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-08 19:40:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Exp_d042b769a4f566200c17782818110c7f2" name="exp_d042b769a4f566200c17782818110c7f2">082b769a4f566200c17782818110c7f2</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

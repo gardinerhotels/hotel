@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_soap_message_function">
+    <sys_soap_message_function action="INSERT_OR_UPDATE">
+        <authentication_type/>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <certificate/>
+        <enable_mutual_auth>false</enable_mutual_auth>
+        <envelope><![CDATA[<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:task">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:create soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <number xsi:type="xsd:string">${number}</number>
+         <room xsi:type="xsd:string">${room}</room>
+         <description xsi:type="xsd:string">${description}</description>
+      </urn:create>
+   </soapenv:Body>
+</soapenv:Envelope>]]></envelope>
+        <function_name>create</function_name>
+        <key_store/>
+        <key_store_alias/>
+        <key_store_password/>
+        <lock>false</lock>
+        <protocol_profile/>
+        <soap_action>urn:tasks#create</soap_action>
+        <soap_endpoint>http://www.gardiner-hotels.com/chs/soap/index.php</soap_endpoint>
+        <soap_message display_value="CHS SOAP">f3e526164f566200c17782818110c7d7</soap_message>
+        <strip_whitespace>false</strip_whitespace>
+        <sys_class_name>sys_soap_message_function</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 18:04:30</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d106a6d24f566200c17782818110c75d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>create</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_soap_message_function_d106a6d24f566200c17782818110c75d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 18:04:30</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_ws_security>false</use_ws_security>
+        <ws_security_type/>
+        <ws_security_username_profile/>
+        <ws_security_x509_profile/>
+    </sys_soap_message_function>
+</record_update>

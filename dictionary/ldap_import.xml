@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Gardiner Hotels/Users" max_length="40" name="ldap_import" type="collection">
+        <element attributes="import_attribute_name=cn,edge_encryption_enabled=true" label="cn" max_length="40" name="u_cn" type="string"/>
+        <element attributes="import_attribute_name=dn,edge_encryption_enabled=true" label="dn" max_length="255" name="u_dn" type="string"/>
+        <element attributes="import_attribute_name=gidnumber,edge_encryption_enabled=true" label="gidnumber" max_length="40" name="u_gidnumber" type="string"/>
+        <element attributes="import_attribute_name=givenname,edge_encryption_enabled=true" label="givenname" max_length="40" name="u_givenname" type="string"/>
+        <element attributes="import_attribute_name=homedirectory,edge_encryption_enabled=true" label="homedirectory" max_length="40" name="u_homedirectory" type="string"/>
+        <element attributes="import_attribute_name=objectclass,edge_encryption_enabled=true" label="objectclass" max_length="40" name="u_objectclass" type="string"/>
+        <element attributes="import_attribute_name=sn,edge_encryption_enabled=true" label="sn" max_length="40" name="u_sn" type="string"/>
+        <element attributes="import_attribute_name=source,edge_encryption_enabled=true" label="source" max_length="255" name="u_source" type="string"/>
+        <element attributes="import_attribute_name=uid,edge_encryption_enabled=true" label="uid" max_length="40" name="u_uid" type="string"/>
+        <element attributes="import_attribute_name=uidnumber,edge_encryption_enabled=true" label="uidnumber" max_length="40" name="u_uidnumber" type="string"/>
+    </element>
+</database>

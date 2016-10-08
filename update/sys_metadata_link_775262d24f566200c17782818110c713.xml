@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ba22a6d24f566200c17782818110c724</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="x_hotel_guest">
+    <x_hotel_guest action="INSERT_OR_UPDATE">
+        <accumulated_roles/>
+        <active>true</active>
+        <building/>
+        <calendar_integration>1</calendar_integration>
+        <city/>
+        <company/>
+        <cost_center/>
+        <country/>
+        <date_format/>
+        <default_perspective/>
+        <department/>
+        <edu_status>faculty</edu_status>
+        <email/>
+        <employee_number/>
+        <failed_attempts/>
+        <first_name>Roger</first_name>
+        <gender/>
+        <home_phone/>
+        <internal_integration_user>false</internal_integration_user>
+        <introduction/>
+        <last_login/>
+        <last_login_device/>
+        <last_login_time/>
+        <last_name>Tarry</last_name>
+        <last_password/>
+        <ldap_server/>
+        <location/>
+        <locked_out>false</locked_out>
+        <manager/>
+        <membership_number/>
+        <middle_name/>
+        <mobile_phone/>
+        <name>Roger Tarry</name>
+        <notification>2</notification>
+        <password_needs_reset>false</password_needs_reset>
+        <phone/>
+        <photo/>
+        <preferred_language/>
+        <roles/>
+        <schedule/>
+        <source/>
+        <state/>
+        <street/>
+        <sys_class_name>x_hotel_guest</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 17:47:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba22a6d24f566200c17782818110c724</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 17:47:40</sys_updated_on>
+        <time_format/>
+        <time_zone>Europe/London</time_zone>
+        <title/>
+        <user_name>rtarry</user_name>
+        <user_password/>
+        <vip>false</vip>
+        <web_service_access_only>false</web_service_access_only>
+        <zip/>
+    </x_hotel_guest>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 17:48:34</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>775262d24f566200c17782818110c713</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Roger Tarry</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_metadata_link_775262d24f566200c17782818110c713</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 17:48:34</sys_updated_on>
+        <tablename>x_hotel_guest</tablename>
+    </sys_metadata_link>
+</record_update>
