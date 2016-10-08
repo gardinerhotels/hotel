@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="task_editor" name="task_editor">0956f6390a0a0bc50064623d5d51c556</contains>
+        <role display_value="x_hotel_maintenance_user" name="x_hotel_maintenance_user">5d7365f94f1e2200c17782818110c7fb</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 20:09:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1eb20f1e4f566200c17782818110c7b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task_editor.x_hotel_maintenance_user</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_user_role_contains_1eb20f1e4f566200c17782818110c7b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 20:09:54</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

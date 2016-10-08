@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>08d5839e4f566200c17782818110c76f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_has_role">
+    <sys_user_has_role action="INSERT_OR_UPDATE">
+        <granted_by/>
+        <included_in_role/>
+        <included_in_role_instance/>
+        <inh_count>1</inh_count>
+        <inh_map>cdbd68059f0002003d5c77a0942e70ec</inh_map>
+        <inherited>true</inherited>
+        <role display_value="x_hotel_guest_user" name="x_hotel_guest_user">adf5106d4fd62200c17782818110c724</role>
+        <state>active</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 20:23:24</sys_created_on>
+        <sys_id>08d5839e4f566200c17782818110c76f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 20:23:24</sys_updated_on>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+    </sys_user_has_role>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 20:32:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>72f70b9e4f566200c17782818110c7df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2016-10-08 13:23:24</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_metadata_link_72f70b9e4f566200c17782818110c7df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 20:32:52</sys_updated_on>
+        <tablename>sys_user_has_role</tablename>
+    </sys_metadata_link>
+</record_update>

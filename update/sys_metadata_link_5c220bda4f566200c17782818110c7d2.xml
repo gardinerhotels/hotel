@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4e128bda4f566200c17782818110c784</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_grmember">
+    <sys_user_grmember action="INSERT_OR_UPDATE">
+        <group display_value="Maintenance" name="Maintenance">d115a93d4f1e2200c17782818110c729</group>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 20:07:10</sys_created_on>
+        <sys_id>4e128bda4f566200c17782818110c784</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 20:07:10</sys_updated_on>
+        <user display_value="Polly Sherman">39d18f1e4f566200c17782818110c78f</user>
+    </sys_user_grmember>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 20:07:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5c220bda4f566200c17782818110c7d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2016-10-08 13:07:10</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_metadata_link_5c220bda4f566200c17782818110c7d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 20:07:19</sys_updated_on>
+        <tablename>sys_user_grmember</tablename>
+    </sys_metadata_link>
+</record_update>

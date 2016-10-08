@@ -12,7 +12,7 @@
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_hotel</scope>
-        <scoped_administration>false</scoped_administration>
+        <scoped_administration>true</scoped_administration>
         <short_description/>
         <source>x_hotel</source>
         <store_correlation_id/>
@@ -22,9 +22,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-08-08 22:04:23</sys_created_on>
         <sys_id>a8f395beebc522004fcde08a5206fe2e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-10-07 01:53:15</sys_updated_on>
+        <sys_updated_on>2016-10-08 20:25:48</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>

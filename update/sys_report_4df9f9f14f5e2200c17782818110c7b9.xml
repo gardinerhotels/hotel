@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_report">
+<record_update sys_domain="global" table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
@@ -84,9 +84,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-07 01:35:00</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>4df9f9f14f5e2200c17782818110c7b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Tasks opened per day</sys_name>
+        <sys_overrides/>
         <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
