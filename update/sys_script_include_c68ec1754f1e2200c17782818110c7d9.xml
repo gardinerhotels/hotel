@@ -13,16 +13,16 @@
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-06 22:25:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c68ec1754f1e2200c17782818110c7d9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>square</sys_name>
         <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
-        <sys_policy>read</sys_policy>
+        <sys_policy>protected</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
         <sys_update_name>sys_script_include_c68ec1754f1e2200c17782818110c7d9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-10-06 22:25:39</sys_updated_on>
+        <sys_updated_on>2016-10-08 21:53:45</sys_updated_on>
     </sys_script_include>
 </record_update>
