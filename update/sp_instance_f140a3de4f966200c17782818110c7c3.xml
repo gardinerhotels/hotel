@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a840e3124fd66200c17782818110c7fa</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 22:19:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f140a3de4f966200c17782818110c7c3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sp_instance_f140a3de4f966200c17782818110c7c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 22:20:37</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<div class=\"wrapper-xl\">\n<div class=\"wrapper-xl\">\n<h1 class=\"text-center text-4x text-success\">Hello there!</h1>\n<h2 class=\"text-center text-2x text-success\">How can we help?</h2>\n</div>\n</div>",
+		"displayValue": "<div class=\"wrapper-xl\">\n<div class=\"wrapper-xl\">\n<h1 class=\"text-center text-4x text-success\">Hello there!</h1>\n<h2 class=\"text-center text-2x text-success\">How can we help?</h2>\n</div>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+</record_update>

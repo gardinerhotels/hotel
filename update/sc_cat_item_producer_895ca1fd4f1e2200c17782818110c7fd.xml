@@ -43,7 +43,11 @@
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[gs.addInfoMessage ('Your maintenance request has been received. The reference number is ' + current.number + '. A member of the team will contact you shortly!');]]></script>
+        <script><![CDATA[gs.addInfoMessage ('Your maintenance request has been received. The reference number is ' + current.number + '. A member of the team will contact you shortly!');
+
+current.short_description = producer.short_description;
+current.room = producer.room;
+current.description = producer.description;]]></script>
         <short_description>Submit a Room Maintenance issue</short_description>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
@@ -51,7 +55,7 @@
         <sys_created_on>2016-10-07 00:35:29</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>895ca1fd4f1e2200c17782818110c7fd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Room Maintenance</sys_name>
         <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
         <sys_policy/>
@@ -59,7 +63,7 @@
         <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
         <sys_update_name>sc_cat_item_producer_895ca1fd4f1e2200c17782818110c7fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-10-07 00:40:33</sys_updated_on>
+        <sys_updated_on>2016-10-08 22:16:16</sys_updated_on>
         <table_name>x_hotel_maintenance</table_name>
         <template display_value="Assign to Maintenance">2e3dadfd4f1e2200c17782818110c7e2</template>
         <type>item</type>

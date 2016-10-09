@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>51abd9794f1e2200c17782818110c74c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_hotel_m2m_guests_reservations">
+    <x_hotel_m2m_guests_reservations action="INSERT_OR_UPDATE">
+        <guest display_value="Danny Brown">d6a409b14f1e2200c17782818110c776</guest>
+        <lead>false</lead>
+        <reservation display_value="Created 2016-10-06 16:22:12">9f7b99794f1e2200c17782818110c7d8</reservation>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-06 23:22:35</sys_created_on>
+        <sys_id>51abd9794f1e2200c17782818110c74c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-06 23:22:35</sys_updated_on>
+    </x_hotel_m2m_guests_reservations>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 23:15:55</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c34de3164fd66200c17782818110c747</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2016-10-06 16:22:35</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_metadata_link_c34de3164fd66200c17782818110c747</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 23:15:55</sys_updated_on>
+        <tablename>x_hotel_m2m_guests_reservations</tablename>
+    </sys_metadata_link>
+</record_update>

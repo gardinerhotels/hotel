@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_hotel_LoopWorld.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+  <j:forEach indexVar="i" begin="1" end="3">
+    <p>Hello, world!</p>
+  </j:forEach>
+</j:jelly>]]></html>
+        <name>LoopWorld</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-09 00:01:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9387b75a4fd66200c17782818110c708</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LoopWorld</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_ui_page_9387b75a4fd66200c17782818110c708</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-09 00:01:07</sys_updated_on>
+    </sys_ui_page>
+</record_update>

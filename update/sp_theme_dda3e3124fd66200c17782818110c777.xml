@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <footer display_value="Funny Footer">8a766b924fd66200c17782818110c72c</footer>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="Stock Header ">bf5ec2f2cb10120000f8d856634c9c0c</header>
+        <name>Hotel Theme</name>
+        <navbar_fixed>false</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 22:34:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>dda3e3124fd66200c17782818110c777</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Hotel Theme</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sp_theme_dda3e3124fd66200c17782818110c777</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 22:48:39</sys_updated_on>
+    </sp_theme>
+</record_update>

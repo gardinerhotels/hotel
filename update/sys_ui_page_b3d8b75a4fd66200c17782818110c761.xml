@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var maintenanceApp = angular.module('maintenance', []);
+
+maintenanceApp.controller('maintenanceController', function($http) {
+
+  var m = this;
+  var fields = 'number,short_description,sys_id';
+  var query = 'active=true';
+  var table = 'x_hotel_maintenance';
+
+  m.get = function() {
+    var url = "/api/now/table/" + table + "?sysparm_query=" + query + "&sysparm_fields=" + fields;
+    $http({
+      method: 'GET',
+      url: url,
+      headers: {
+        'X-UserToken': window.g_ck,
+        'Accept': "application/json"
+      }
+    }).
+    success(function(data) {
+      m.data = data.result;
+      console.log(m.data);
+    });
+  };
+
+  m.get();
+
+  m.update = function(data) {
+    var url = "/api/now/table/" + table + "/" + data.sys_id;
+    $http({
+      method: 'PUT',
+      url: url,
+      headers: {
+        'X-UserToken': window.g_ck,
+        'Content-Type': "application/json"
+      },
+      data: data
+    });
+  };
+});]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_hotel_updateMaintenanceTasks.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+  <style>
+   table, th , td {
+     border: 1px solid grey;
+     border-collapse: collapse;
+     padding: 5px;
+   }
+   table td:nth-child(2), td input {
+     width: 300px;
+   }
+  </style>
+  <g:requires name="x_hotel.angular.min.1.4.12.jsdbx" />
+    
+  <div ng-app="maintenance">
+    <div ng-controller="maintenanceController as m">
+      <h3>Maintenance tasks</h3>
+      <table>
+        <tr>
+          <th>Number</th>
+          <th>Short Description: $[nbsp] <input type="text" ng-model="search" /></th>
+        </tr>
+        <tr ng-repeat="d in m.data | filter: search">
+          <td>{{d.number}}</td>
+          <td><input type="text" ng-model="d.short_description" ng-blur="m.update(d)" /></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</j:jelly>]]></html>
+        <name>updateMaintenanceTasks</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-09 00:09:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b3d8b75a4fd66200c17782818110c761</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>updateMaintenanceTasks</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_ui_page_b3d8b75a4fd66200c17782818110c761</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-09 00:09:55</sys_updated_on>
+    </sys_ui_page>
+</record_update>

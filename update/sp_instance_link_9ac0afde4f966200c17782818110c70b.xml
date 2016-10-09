@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>home</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>0</order>
+        <sc_cat_item display_value="Room Maintenance">895ca1fd4f1e2200c17782818110c7fd</sc_cat_item>
+        <sc_category/>
+        <short_description>Need your room cleaned? Or got a leaky tap? Come this way!</short_description>
+        <size>md</size>
+        <sp_column display_value="1">7eb06b124fd66200c17782818110c7c1</sp_column>
+        <sp_page display_value="hotel_catalog">93cf9fde4f966200c17782818110c7f6</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 22:21:15</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9ac0afde4f966200c17782818110c70b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Call for help!</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sp_instance_link_9ac0afde4f966200c17782818110c70b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 22:23:04</sys_updated_on>
+        <title>Call for help!</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+</record_update>

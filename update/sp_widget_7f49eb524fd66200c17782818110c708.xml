@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($scope, spUtil) {
+  var c = this;
+  c.data.min = c.options.minimum || 2;
+  spUtil.recordWatch($scope, "x_hotel_m2m_guests_reservations", "",
+    function() {
+      c.server.update()
+    });
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.loyalty h1 {
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+.loyalty h2 {
+  margin-bottom: -16px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>glyph</field_list>
+        <has_preview>false</has_preview>
+        <id>hotel-guest-loyalty</id>
+        <internal>false</internal>
+        <link/>
+        <name>Guest Loyalty</name>
+        <option_schema>[{"name":"minimum","label":"Minimum stays required","type":"integer"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  data.count = 0;
+  var m2m = new GlideAggregate('x_hotel_m2m_guests_reservations');
+  m2m.addAggregate("COUNT");
+  m2m.addQuery('reservation.arrival', '<', new GlideDate().getDisplayValue());
+  m2m.addQuery('guest', gs.getUserID());
+  m2m.query();
+  if (m2m.next())
+    data.count = m2m.getAggregate('COUNT');
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-08 22:58:29</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7f49eb524fd66200c17782818110c708</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Guest Loyalty</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sp_widget_7f49eb524fd66200c17782818110c708</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-08 23:19:18</sys_updated_on>
+        <template><![CDATA[<div ng-if="c.data.count > c.data.min">
+  <div class="wrapper loyalty text-center">
+    <i class="fa fa-{{::options.glyph}} fa-5x"></i>
+    <h1 class="text-3x">Thank you!</h1>
+    <h2 class="text-2x">For being one of our best customers!</h2>
+    <h3>You've stayed with us {{c.data.count}} times.</h2>
+   </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

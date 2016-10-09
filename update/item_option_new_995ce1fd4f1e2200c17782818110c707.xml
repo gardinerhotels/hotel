@@ -23,6 +23,7 @@
         <help_tag>More information</help_tag>
         <help_text/>
         <include_none>false</include_none>
+        <instructions/>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
@@ -51,6 +52,7 @@
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
         <show_help>false</show_help>
+        <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
