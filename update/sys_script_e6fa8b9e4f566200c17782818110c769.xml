@@ -36,7 +36,7 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 20:45:58</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
         <sys_domain_path>!!!/!!$/</sys_domain_path>
         <sys_id>e6fa8b9e4f566200c17782818110c769</sys_id>

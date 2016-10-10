@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-06 23:56:45</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3973213d4f1e2200c17782818110c71d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_hotel_maintenance.x_hotel_maintenance_user</sys_name>

@@ -7,7 +7,7 @@
         <sys_class_name>sys_data_policy_rule</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-06 22:27:15</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_data_policy display_value="Must have a comment if in past">bbbe4d754f1e2200c17782818110c7c1</sys_data_policy>
         <sys_id>35ee8d754f1e2200c17782818110c7f5</sys_id>
         <sys_mod_count>0</sys_mod_count>

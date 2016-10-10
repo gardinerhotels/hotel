@@ -52,7 +52,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-05 23:11:09</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>5769f4fd4fda2200c17782818110c7cc</sys_id>
+        <sys_id>9ca7ecc34f122200c17782818110c7e8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Room</sys_name>
         <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
         <sys_update_name>sys_dictionary_x_hotel_check_in_room</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2016-10-06 20:53:09</sys_updated_on>
+        <sys_updated_on>2016-10-10 16:47:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

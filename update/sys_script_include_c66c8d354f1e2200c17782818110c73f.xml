@@ -19,7 +19,7 @@ SimpleSubtract.prototype = Object.extendsObject(SimpleAdd, {
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-06 22:16:19</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c66c8d354f1e2200c17782818110c73f</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>SimpleSubtract</sys_name>

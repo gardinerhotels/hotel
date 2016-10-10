@@ -15,7 +15,7 @@
         <sys_class_name>sys_filter_option_dynamic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-06 22:33:24</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9040d1b54f1e2200c17782818110c724</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Guest has reservation</sys_name>

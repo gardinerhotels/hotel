@@ -11,7 +11,7 @@
         <sys_class_name>sys_export_set</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 19:36:43</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b20b769a4f566200c17782818110c7ff</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Maintenance export</sys_name>
