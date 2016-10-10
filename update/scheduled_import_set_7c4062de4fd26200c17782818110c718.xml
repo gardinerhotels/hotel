@@ -24,7 +24,7 @@
         <sys_class_name>scheduled_import_set</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 17:39:20</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7c4062de4fd26200c17782818110c718</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Gardiner Hotels/Users Import</sys_name>

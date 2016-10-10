@@ -13,7 +13,7 @@
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-06 22:25:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c68ec1754f1e2200c17782818110c7d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>square</sys_name>

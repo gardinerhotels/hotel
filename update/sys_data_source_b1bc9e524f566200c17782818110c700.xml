@@ -42,7 +42,7 @@
         <sys_class_name>sys_data_source</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 17:24:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b1bc9e524f566200c17782818110c700</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>IMP XML Rooms</sys_name>

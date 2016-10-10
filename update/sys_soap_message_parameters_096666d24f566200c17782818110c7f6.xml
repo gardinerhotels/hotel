@@ -6,7 +6,7 @@
         <sys_class_name>sys_soap_message_parameters</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 18:06:21</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>096666d24f566200c17782818110c7f6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>room</sys_name>

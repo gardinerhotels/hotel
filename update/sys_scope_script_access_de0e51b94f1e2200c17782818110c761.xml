@@ -56,7 +56,7 @@
         <sys_class_name>sys_scope_script_access</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-06 23:33:01</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>de0e51b94f1e2200c17782818110c761</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>AbstractAjaxProcessor</sys_name>

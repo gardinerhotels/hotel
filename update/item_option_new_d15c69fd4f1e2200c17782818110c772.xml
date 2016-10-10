@@ -23,6 +23,7 @@
         <help_tag>More information</help_tag>
         <help_text>For example, which tap is leaking?</help_text>
         <include_none>false</include_none>
+        <instructions/>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
@@ -51,11 +52,12 @@
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
         <show_help>true</show_help>
+        <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-07 00:35:30</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d15c69fd4f1e2200c17782818110c772</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Please enter a longer description that outlines the issue you are having.</sys_name>

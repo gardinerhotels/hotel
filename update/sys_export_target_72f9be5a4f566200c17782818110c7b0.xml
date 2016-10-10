@@ -9,7 +9,7 @@
         <sys_class_name>sys_export_target</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 19:31:43</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>72f9be5a4f566200c17782818110c7b0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Maintenance export_midserver</sys_name>
