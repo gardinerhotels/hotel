@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2016-10-09 00:46:42">
+<record_update node_type="sys_portal_page" unload_date="2016-10-10 17:51:34">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
         <order/>
@@ -9,14 +9,14 @@
         <sys_class_name>sys_portal_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-07 01:35:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a42abdf14f5e2200c17782818110c7f4</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Maintenance</sys_name>
         <sys_overrides/>
-        <sys_package/>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>

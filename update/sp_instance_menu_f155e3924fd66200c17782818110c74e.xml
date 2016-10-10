@@ -15,7 +15,7 @@
         <sys_class_name>sp_instance_menu</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 22:41:19</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>f155e3924fd66200c17782818110c74e</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Hotel header menu</sys_name>

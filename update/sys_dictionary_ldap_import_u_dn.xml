@@ -47,7 +47,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 17:45:09</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>7591e2d24f566200c17782818110c71b</sys_id>
+        <sys_id>142f680b4f122200c17782818110c7de</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>dn</sys_name>
         <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
@@ -55,8 +55,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
         <sys_update_name>sys_dictionary_ldap_import_u_dn</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-10-08 17:45:09</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2016-10-10 17:20:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -16,7 +16,7 @@
         <sys_class_name>sys_gauge_counts</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-07 01:40:49</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3cea35354f5e2200c17782818110c7f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Highprioirty tasks</sys_name>

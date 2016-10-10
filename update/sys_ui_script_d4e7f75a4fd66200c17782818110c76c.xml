@@ -311,7 +311,7 @@ shortDate:"M/d/yy",shortTime:"h:mm a"},NUMBER_FORMATS:{CURRENCY_SYM:"$",DECIMAL_
         <sys_class_name>sys_ui_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-09 00:03:16</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d4e7f75a4fd66200c17782818110c76c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_hotel.angular.min.1.4.12</sys_name>

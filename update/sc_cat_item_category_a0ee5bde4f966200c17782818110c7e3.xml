@@ -6,7 +6,7 @@
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 22:12:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a0ee5bde4f966200c17782818110c7e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Can We Help You?.New Reservation</sys_name>

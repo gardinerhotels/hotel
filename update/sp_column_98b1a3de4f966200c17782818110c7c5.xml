@@ -11,7 +11,7 @@
         <sys_class_name>sp_column</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 22:25:12</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>98b1a3de4f966200c17782818110c7c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>1</sys_name>

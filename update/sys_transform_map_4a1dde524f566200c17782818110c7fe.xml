@@ -17,7 +17,7 @@
         <sys_class_name>sys_transform_map</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 17:26:09</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4a1dde524f566200c17782818110c7fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Rooms</sys_name>

@@ -18,7 +18,7 @@
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-09 00:01:51</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>1db7775a4fd66200c17782818110c728</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>dice</sys_name>

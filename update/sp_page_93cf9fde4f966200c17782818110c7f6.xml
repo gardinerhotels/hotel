@@ -10,7 +10,7 @@
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 22:16:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>93cf9fde4f966200c17782818110c7f6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>hotel_catalog</sys_name>

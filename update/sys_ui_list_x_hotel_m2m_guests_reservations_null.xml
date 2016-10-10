@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>guest</element>
-            <list_id display_value="x_hotel_m2m_guests_reservations" element="NULL" name="x_hotel_m2m_guests_reservations" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">512ad8ad4fd62200c17782818110c7c0</list_id>
+            <list_id display_value="x_hotel_m2m_guests_reservations" element="NULL" name="x_hotel_m2m_guests_reservations" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b8a3b7d64fd66200c17782818110c738</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>lead</element>
-            <list_id display_value="x_hotel_m2m_guests_reservations" element="NULL" name="x_hotel_m2m_guests_reservations" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">512ad8ad4fd62200c17782818110c7c0</list_id>
+            <list_id display_value="x_hotel_m2m_guests_reservations" element="NULL" name="x_hotel_m2m_guests_reservations" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b8a3b7d64fd66200c17782818110c738</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +34,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>reservation</element>
-            <list_id display_value="x_hotel_m2m_guests_reservations" element="NULL" name="x_hotel_m2m_guests_reservations" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">512ad8ad4fd62200c17782818110c7c0</list_id>
+            <list_id display_value="x_hotel_m2m_guests_reservations" element="NULL" name="x_hotel_m2m_guests_reservations" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b8a3b7d64fd66200c17782818110c738</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>

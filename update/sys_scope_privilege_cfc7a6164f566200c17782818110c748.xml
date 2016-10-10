@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 18:12:16</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>cfc7a6164f566200c17782818110c748</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>SOAPMessageV2</sys_name>
