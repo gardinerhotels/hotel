@@ -8,7 +8,7 @@
         <sys_class_name>ldap_server_url</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-08 17:39:20</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>f84062de4fd26200c17782818110c717</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>ldap://ldap.gardiner-hotels.com/</sys_name>

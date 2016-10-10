@@ -2,7 +2,7 @@
 <record_update table="sys_index">
     <sys_index action="INSERT_OR_UPDATE">
         <col_name_string>number</col_name_string>
-        <index_col_name element="number" name="x_hotel_room">7b6938fd4fda2200c17782818110c710</index_col_name>
+        <index_col_name>7b6938fd4fda2200c17782818110c710</index_col_name>
         <logical_table_name>x_hotel_room</logical_table_name>
         <sys_class_name>sys_index</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,7 +18,7 @@
         <sys_update_name>sys_index_x_hotel_room_number</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2016-10-08 17:27:21</sys_updated_on>
-        <table display_value="Room" name="x_hotel_room">0b5c48294fd62200c17782818110c7b8</table>
+        <table/>
         <unique_index>false</unique_index>
     </sys_index>
 </record_update>

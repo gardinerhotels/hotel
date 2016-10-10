@@ -15,7 +15,7 @@
         <sys_class_name>sys_template</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-07 01:12:22</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6b3431b14f5e2200c17782818110c76a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>End of reservation room cleaning</sys_name>

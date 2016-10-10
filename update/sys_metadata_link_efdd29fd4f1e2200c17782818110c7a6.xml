@@ -78,7 +78,7 @@
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-07 00:42:12</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>efdd29fd4f1e2200c17782818110c7a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>MAI0001002</sys_name>

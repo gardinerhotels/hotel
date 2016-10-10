@@ -11,7 +11,7 @@
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-07 00:06:54</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>37a56d3d4f1e2200c17782818110c750</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>x_hotel.maintenance.external_group</sys_name>
