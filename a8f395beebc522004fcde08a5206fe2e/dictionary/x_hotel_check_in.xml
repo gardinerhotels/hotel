@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Check-in" max_length="40" name="x_hotel_check_in" type="collection"/>
+</database>

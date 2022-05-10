@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_hotel.check_in_user" name="x_hotel.check_in_user">d56dd77a97130110b233732e6253afe1</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-10 14:17:42</sys_created_on>
+        <sys_id>196dd77a97130110b233732e6253afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d56dd77a97130110b233732e6253afe1</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_embedded_help_role_196dd77a97130110b233732e6253afe3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-10 14:17:42</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
